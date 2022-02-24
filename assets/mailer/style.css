@@ -1,0 +1,107 @@
+.topDivImage{
+    text-align: center;
+    font-size: 5rem;
+    color: #0092d6;
+    font-weight: 700;
+    }
+
+    .mainDiv50{
+        width: 50%;
+         margin: auto;
+    }
+.backgroundClass{
+    padding: 35px 0px;
+    background-color: #0092d6;
+    font-family: Arial,sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    overflow: hidden;
+    word-break: normal;
+    color: #fff;
+    vertical-align: top;
+}
+
+.marginTopRow{
+    margin-top: 3%;
+    text-align: center;
+}
+.clinchDivP{
+    font-family: Arial,sans-serif;
+    font-size: 17px;
+    overflow: hidden;
+    word-break: normal;
+    color: #95989a;
+    text-align: center;
+    vertical-align: top;
+  
+}
+.cnfmEmail{
+    margin: 2% 0%;
+}
+.cnfmEmail span{
+    padding: 1% 7%;
+    background: #ff9600;
+    color: #fff;
+    border-radius: 14px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+  
+    word-break: normal;
+}
+.cnfmEmail p{
+    margin-top: 3%;
+    margin-bottom: 0;
+}
+.footer{
+    background: lightgray;
+    padding: 2% 0%;
+    text-align: center;
+    line-height: 1.4;
+    bottom: 0;
+    /* left: 0; */
+    /* right: 0; */
+    position: fixed;
+    font-family: Arial;
+    color: #95989a;
+    text-decoration: none;
+    width: 50%;
+    margin: auto;
+    
+}
+.footer p{
+    margin-bottom: 0%;
+}
+.rewardsImg{
+    width: 60%;
+    padding: 3% 0%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+    .mainDiv50{
+        width: 100% !important;
+        overflow-x: hidden !important;
+        margin: auto !important;
+    }
+	.footer{
+        width: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin: auto;     
+    
+    }
+    .backgroundClass{
+        font-size: 23px !important;
+    }
+	
+	.marginTopRow{
+		padding: 0% 4% !important;
+	}
+	
+	.clinchDivP{
+		
+		margin-top: 10% !important;
+	}
+}
